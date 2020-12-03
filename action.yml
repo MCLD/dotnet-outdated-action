@@ -1,5 +1,9 @@
 name: 'dotnet outdated action'
+author: 'MCLD'
 description: 'Report on outdated NuGet packages in .NET projects'
+branding:
+  icon: alert-circle
+  color: purple
 runs:
   using: 'docker'
   image: 'Dockerfile'

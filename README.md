@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: mcld/dotnet-outdated@v1
+      - uses: mcld/dotnet-outdated-action@v1
 ```
 
 ## License
