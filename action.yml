@@ -1,0 +1,6 @@
+name: 'dotnet outdated action'
+description: 'Report on outdated NuGet packages in .NET projects'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
