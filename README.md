@@ -4,15 +4,16 @@ This is a [GitHub Action](https://docs.github.com/en/free-pro-team@latest/action
 
 ## Usage
 
-Create a file in your repository such as `.github/workflows/dotnet-outdated.yml`:
+Create a file in your repository such as `.github/workflows/packages.yml`:
 
 ```yaml
-name: Run dotnet outdated
+name: "Packages - action"
 
 on: [pull_request]
 
 jobs:
   dotnet-outdated:
+    name: "dotnet outdated"
     runs-on: ubuntu-latest
 
     steps:
