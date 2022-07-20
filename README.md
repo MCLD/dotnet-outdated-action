@@ -19,8 +19,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: mcld/dotnet-outdated-action@v1
+      - uses: mcld/dotnet-outdated-action@v2
 ```
+
+## Version History
+
+- v2: .NET Core 6
+- v1: .NET Core 5
 
 ## License
 
