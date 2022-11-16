@@ -24,6 +24,7 @@ jobs:
 
 ## Version History
 
+- v3: .NET Core 7
 - v2: .NET Core 6
 - v1: .NET Core 5
 
