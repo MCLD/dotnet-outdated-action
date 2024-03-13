@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [4.1] - 2023-03-13
+
+### Fixed
+
+- Fix invalid Docker container tag
+
 ## [4] - 2023-03-13
 
 ### Updated
@@ -28,6 +34,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 - GitHub Action for using dotnet outdated
 
+[4.1]: https://github.com/MCLD/dotnet-outdated-action/tree/v4.1
 [4]: https://github.com/MCLD/dotnet-outdated-action/tree/v4
 [3]: https://github.com/MCLD/dotnet-outdated-action/tree/v3
 [2]: https://github.com/MCLD/dotnet-outdated-action/tree/v2
