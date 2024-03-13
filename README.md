@@ -19,11 +19,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: mcld/dotnet-outdated-action@v2
+      - uses: mcld/dotnet-outdated-action@v4
 ```
 
 ## Version History
 
+- v4: .NET Core 8
 - v3: .NET Core 7
 - v2: .NET Core 6
 - v1: .NET Core 5
